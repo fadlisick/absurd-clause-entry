@@ -8,10 +8,13 @@ The clause is a single sentence, 1-200 characters, no em dash.
 import os
 
 CLAUSE = (
-    "By accepting these terms, you consent to the Company renaming "
-    "your firstborn child to a password that meets our complexity "
-    "requirements."
+    "User irrevocably waives the right to trial by jury and agrees "
+    "to settle all billing disputes via best-of-three "
+    "rock-paper-scissors in Delaware."
 )
+
+# Gemini #1 (143 chars) swapped in 2026-11-26: the locked firstborn-child
+# line ranked #2, this arbitration clause ranked #1 head-to-head.
 
 MAX_CHARS = 200
 
